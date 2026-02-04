@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity | Teen Tech Program</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+        .card-image { height: 200px; object-fit: cover; }
+        .activity-card { border-left: 4px solid #2563eb; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center gap-2">
+                    <img src="logo.png" alt="Teen Tech" class="h-8 w-8" style="width: auto; height: 100px">
+                </a>
+                <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a>
+                    <a href="ai.html" class="text-gray-600 hover:text-gray-900">AI Learning</a>
+                    <a href="cybersecurity.html" class="px-4 py-2 rounded-full bg-blue-600 text-white">Cybersecurity</a>
+                    <!-- <a href="index.html#resources" class="text-gray-600 hover:text-gray-900">Resources</a> -->
+                    <a href="index.html#schools" class="text-gray-600 hover:text-gray-900">Schools</a>
+                    <!-- <a href="index.html#about" class="text-gray-600 hover:text-gray-900">About</a> -->
+                    <!-- <a href="index.html#contact" class="text-gray-600 hover:text-gray-900">Contact</a> -->
+                </div>
+                <div class="md:hidden">
+                    <a href="index.html" class="text-gray-800 text-xl">←</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <span class="inline-block mb-4 px-4 py-1 rounded-full bg-yellow-500 text-black text-sm font-semibold">
+                Curriculum
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Cybersecurity Education
+            </h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-2xl">
+                What secondary school students will learn about staying safe online — and the hands-on activities they'll do.
+            </p>
+        </div>
+    </section>
+
+    <!-- What They Will Learn -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-2">What They Will Learn</h2>
+            <p class="text-gray-600 mb-12">Essential cybersecurity knowledge for the digital age</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. Understanding Cybersecurity -->
+                <article class="card bg-white rounded-xl border overflow-hidden">
+                    <img 
+                        src="cyber.jpeg" 
+                        alt="Understanding Cybersecurity" 
+                        class="card-image w-full"
+                    >
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Topic 1</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-1 mb-3">Understanding Cybersecurity</h3>
+                        <p class="text-gray-600 text-sm">
+                            Learn what cybersecurity means and why it matters. Students explore how digital systems are protected and their role in staying safe online.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 2. Recognizing Common Cyber Threats -->
+                <article class="card bg-white rounded-xl border overflow-hidden">
+                    <img 
+                        src="cyberthreat.jpeg" 
+                        alt="Recognizing Common Cyber Threats" 
+                        class="card-image w-full"
+                    >
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Topic 2</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-1 mb-3">Recognizing Common Cyber Threats</h3>
+                        <p class="text-gray-600 text-sm">
+                            Identify phishing, malware, scams, and other threats. Students learn to spot suspicious links, emails, and messages before they cause harm.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 3. Safe Use of Devices and the Internet -->
+                <article class="card bg-white rounded-xl border overflow-hidden">
+                    <img 
+                        src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" 
+                        alt="Safe Use of Devices and the Internet" 
+                        class="card-image w-full"
+                    >
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Topic 3</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-1 mb-3">Safe Use of Devices and the Internet</h3>
+                        <p class="text-gray-600 text-sm">
+                            Best practices for secure browsing, strong passwords, software updates, and protecting devices. Build habits that keep you safe every day.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 4. Cyberbullying and Digital Citizenship -->
+                <article class="card bg-white rounded-xl border overflow-hidden">
+                    <img 
+                        src="Turning Students into Good Digital Citizens.jpeg" 
+                        alt="Cyberbullying and Digital Citizenship" 
+                        class="card-image w-full"
+                    >
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Topic 4</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-1 mb-3">Cyberbullying and Digital Citizenship</h3>
+                        <p class="text-gray-600 text-sm">
+                            Understand cyberbullying, its impact, and how to respond. Learn what it means to be a responsible, respectful digital citizen.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 5. Protecting Digital Identity -->
+                <article class="card bg-white rounded-xl border overflow-hidden">
+                    <img 
+                        src="https://picsum.photos/id/2/800/400" 
+                        alt="Protecting Digital Identity" 
+                        class="card-image w-full"
+                    >
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Topic 5</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-1 mb-3">Protecting Digital Identity</h3>
+                        <p class="text-gray-600 text-sm">
+                            Safeguard personal information, privacy settings, and online reputation. Students learn what to share — and what to keep private.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- What They Will Do -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-2">What They Will Do</h2>
+            <p class="text-gray-600 mb-12">Hands-on activities that bring cybersecurity to life</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Activity 1 -->
+                <div class="activity-card bg-gray-50 rounded-xl p-8 border border-gray-200">
+                    <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-6">
+                        <i class="fas fa-clipboard-check text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Cyber Safety Review Sessions</h3>
+                    <p class="text-gray-600 text-sm">
+                        Guided discussions and reviews that reinforce key safety concepts. Students reflect on real scenarios and practice making smart decisions online.
+                    </p>
+                </div>
+
+                <!-- Activity 2 -->
+                <div class="activity-card bg-gray-50 rounded-xl p-8 border border-gray-200">
+                    <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-6">
+                        <i class="fas fa-users-cog text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Interactive Group Mini-Projects</h3>
+                    <p class="text-gray-600 text-sm">
+                        Collaborative projects where teams design security solutions, create awareness campaigns, or solve security puzzles together.
+                    </p>
+                </div>
+
+                <!-- Activity 3 -->
+                <div class="activity-card bg-gray-50 rounded-xl p-8 border border-gray-200">
+                    <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-6">
+                        <i class="fas fa-flag text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">TeenTech CTF (Capture the Flag)</h3>
+                    <p class="text-gray-600 text-sm">
+                        Complete challenges in our Capture the Flag competition. Students apply their skills to find hidden flags, crack codes, and solve security puzzles.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-gray-50 border-t">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Ready to bring Teen Tech to your school?</h2>
+            <p class="text-gray-600 mb-6">Our facilitators deliver cybersecurity education through engaging, interactive sessions.</p>
+            <a href="index.html#schools" class="inline-block bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition">
+                Learn How It Works
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <a href="index.html" class="text-white font-semibold hover:text-yellow-400 transition">← Back to Home</a>
+                <p>&copy; Teen Tech Program. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
